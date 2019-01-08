@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Header from "../presentational/header";
-
-class Container extends Component {
+import styles from "./main.css";
+class Home extends Component {
   render() {
     return (
       <div>
@@ -10,4 +10,4 @@ class Container extends Component {
     );
   }
 }
-export default Container;
+export default Home;

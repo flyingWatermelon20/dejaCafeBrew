@@ -19,10 +19,26 @@ module.exports = {
         ]
       },
       {
-        test: /\.css$/,
+        test: /\.p?css$/,
         use: [
           {
-            loader: "css-loader"
+            loader: "style-loader"
+          },
+          {
+            loader: "css-loader",
+            options: {
+              importLoaders: 1,
+              modules: true,
+              localIdentName: "[path][name]__[local]--[hash:base64:5]"
+            }
+          }
+        ]
+      },
+      {
+        test: /\.(png|jpg|gif|webp)$/,
+        use: [
+          {
+            loader: "file-loader"
           }
         ]
       }
