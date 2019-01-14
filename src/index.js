@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import Container from "./components/container/home";
+import Main from "./page/main";
 
 const wrapper = document.getElementById("app");
-wrapper ? ReactDOM.render(<Container />, wrapper) : false;
+wrapper ? ReactDOM.render(<Main />, wrapper) : false;

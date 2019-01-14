@@ -1,7 +1,11 @@
 .header {
-  overflow: hidden;
+  height: 6rem;
   background-color: #f1f1f1;
   padding: 15px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
 }
 .header a {
   float: left;
@@ -9,7 +13,7 @@
   text-align: center;
   padding: 10px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 1.2rem;
   line-height: 50px;
   border-radius: 3px;
 }
@@ -23,8 +27,8 @@
 .logoImg {
   float: left;
   padding: 3px;
-  max-width: 65px;
-  max-height: 65px;
+  width: 4.5rem;
+  height: 4.5rem;
 }
 .headerRight {
   float: right;

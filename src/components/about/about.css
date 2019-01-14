@@ -1,0 +1,31 @@
+.container {
+  height: 100vh;
+  padding: 4.5rem 6rem;
+  background-color: #e69b13c7;
+}
+.title {
+  font-family: Caveat;
+  font-size: 5.5rem;
+}
+.textLeft {
+  width: 40vw;
+}
+.subtitle {
+  font-family: Caveat;
+  font-size: 3.5rem;
+  margin: 10px 0;
+}
+.description {
+  font-size: 1.1rem;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+.helper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.chefImg {
+  width: 30vw;
+  height: 60vh;
+}
