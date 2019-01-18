@@ -1,18 +1,18 @@
-.title {
-  font-family: Caveat;
-  font-size: 6rem;
-}
 .menuContainer {
   background-image: url("../../assets/menu.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
   weight: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .textContainer {
   width: 50%;
-  height: 55%;
+  max-width: 680px;
+  height: 50%;
   color: black;
   text-align: center;
   background-color: #000000ab;
@@ -20,10 +20,25 @@
   border-radius: 10px;
   padding: 2rem;
 }
+
+.title {
+  font-family: Caveat;
+  font-size: 6rem;
+  margin-bottom: 1rem;
+}
+
 .subtitle {
-  font-size: 1.4rem;
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+}
+
+.buttonContainer {
+  margin-top: 2rem;
 }
 
 .specialMenu:hover {
   background-color: #a75d2e;
+}
+.buttonLike {
+  font-family: Caveat;
 }

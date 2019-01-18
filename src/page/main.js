@@ -4,6 +4,8 @@ import Header from "../components/header/header";
 import Contact from "../components/contact/contact";
 import About from "../components/about/about";
 import Menu from "../components/menu/menu";
+import Footer from "../components/footer/footer";
+
 import mainFood from "../assets/mainFood.jpeg";
 import styles from "./main.css";
 
@@ -20,7 +22,11 @@ class Main extends Component {
               <h1 className={styles.mainText}>
                 We make foods that make you happy
               </h1>
-              <button>VIEW MENU</button>
+              <button>
+                <a className={styles.buttonLike} href="#menu">
+                  VIEW MENU
+                </a>
+              </button>
             </div>
           </section>
           <section id="about">
@@ -32,8 +38,7 @@ class Main extends Component {
           <section id="contact">
             <Contact />
           </section>
-
-          {/* <Footer /> */}
+          <Footer />
         </div>
       </div>
     );

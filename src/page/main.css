@@ -46,7 +46,7 @@ button {
   font-weight: bold;
   padding: 1.2rem 1.4rem;
   background-color: #e6e6e6ab;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   cursor: pointer;
   border: none;
   margin: 1rem;
@@ -58,4 +58,8 @@ button:focus {
 
 button:hover {
   background-color: #a2b964e0;
+}
+
+.buttonLike {
+  font-family: Caveat;
 }

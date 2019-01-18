@@ -7,12 +7,10 @@ const Header = () => (
   <div className={styles.header}>
     <img src={logo} className={styles.logoImg} />
     <a href="#default" className={styles.logo}>
-      DEJA CAFE BREW
+      DEJA BREW CAFE
     </a>
     <div className={styles.headerRight}>
-      <a className={styles.active} href="#home">
-        Home
-      </a>
+      <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#menu">Menu</a>
       <a href="#contact">Contact</a>

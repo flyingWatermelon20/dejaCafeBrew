@@ -1,0 +1,36 @@
+.footer {
+  width: 100vw;
+  height: 18vh;
+  text-align: center;
+  background-color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin: 5px;
+  font-family: Caveat;
+  color: #3e3e3e;
+}
+.elementsContainer {
+  display: flex;
+  flex-direction: column;
+}
+.address {
+  color: #3e3e3e;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+}
+
+.snsLogo {
+  margin: 1rem 1rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+a {
+  cursor: pointer;
+}
