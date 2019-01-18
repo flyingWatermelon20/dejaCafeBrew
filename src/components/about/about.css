@@ -1,0 +1,64 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #e69b13c7;
+  overflow: hidden;
+}
+.helper {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+.titleHelper {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.textLeft {
+  padding: 1rem 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+}
+.title {
+  font-weight: bold;
+  font-family: Caveat;
+  font-size: 5.5rem;
+}
+
+.chefContainer {
+  margin-top: 3rem;
+}
+.chefTitle {
+  font-weight: bold;
+  font-family: Caveat;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+
+.chefImg {
+  width: 38vw;
+  height: 100vh;
+}
+.readReviewButton {
+  background-color: orange;
+  margin-left: 0;
+}
+
+.readReviewButton:hover {
+  background-color: #ff7700;
+}
+
+.buttonLike {
+  font-family: Caveat;
+}

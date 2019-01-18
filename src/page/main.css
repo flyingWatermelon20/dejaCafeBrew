@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.content {
+  z-index: -1;
+  margin-top: 6rem;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+}
+
+.mainFoodImg {
+  width: 100%;
+  height: 100vh;
+  opacity: 0.85;
+}
+
+.mainTextContainer {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mainText {
+  font-family: Caveat;
+  font-size: 80px;
+  margin: 1.5rem;
+}
+
+button {
+  font-family: Caveat;
+  font-weight: bold;
+  padding: 1.2rem 1.4rem;
+  background-color: #e6e6e6ab;
+  font-size: 1.4rem;
+  cursor: pointer;
+  border: none;
+  margin: 1rem;
+  border-radius: 3px;
+}
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  background-color: #a2b964e0;
+}
+
+.buttonLike {
+  font-family: Caveat;
+}
