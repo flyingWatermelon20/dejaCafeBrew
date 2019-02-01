@@ -14,10 +14,16 @@ const Footer = () => (
         319 Braxfield Road, London SE4 2QZ | 020 7998 836{" "}
       </div>
       <div className={styles.iconCotainer}>
-        <a>
+        <a
+          target="_blank"
+          href="https://www.facebook.com/Deja-Brew-Cafe-Brockley-407394519793712/"
+        >
           <img src={facebookLogo} className={styles.snsLogo} />
         </a>
-        <a>
+        <a
+          target="_blank"
+          href="https://www.google.co.uk/search?ei=761AXIOyOeKW1fAPp6-XqAY&q=deja+cafe+brew+brockley&oq=deja+cafe+brew+brockley&gs_l=psy-ab.3...2295.2983..3159...0.0..0.59.114.2......0....1..gws-wiz.OT_amsPp-WI#lrd=0x4876030414cb245d:0x7ad5988dbb77a3a1,1,,,"
+        >
           <img src={googleLogo} className={styles.snsLogo} />
         </a>
         <a>

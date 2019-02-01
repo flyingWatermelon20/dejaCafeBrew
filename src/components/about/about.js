@@ -16,8 +16,7 @@ const About = () => (
             <strong>Deja Cafe Brew</strong> is located in the heart of Brockley
             Road. We serve dishes made with fresh ingredients and home-made
             sides. We have <strong>space for private parties</strong> with
-            tailored catering service. The space has a spacious dining area with
-            an access to private terrace. People is a multi-functional events
+            tailored catering service. People is a multi-functional events
             space. The space is perfect for supper clubs, meetings, pop-up
             restaurants, anything you want! Private dining from 10 to 20, and
             whole venue hire available for up to 50. We can arragne to suit all
