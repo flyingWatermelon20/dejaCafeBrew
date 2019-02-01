@@ -46,8 +46,8 @@ const Contact = () => (
         <div className={styles.textBox}>
           <p>
             For further questions regarding partnership or party room/catering
-            service, Please give us a call at <strong>+787354019342 </strong> or
-            send us an email at <strong>dejabrewcafe@gmail.com</strong>
+            service, Please give us a call at <strong>020 7998 836 </strong> or
+            send us an email at <strong>dejabrewbrockley@gmail.com</strong>
           </p>
         </div>
       </div>
