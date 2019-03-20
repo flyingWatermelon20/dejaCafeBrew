@@ -14,7 +14,7 @@ const Contact = () => (
         <p className={styles.colorBlock}>How to find us?</p>
         <div className={styles.textBox}>
           <p>
-            <strong>Location : </strong> 319 Braxfield Road, London SE4 2QZ
+            <strong>Location : </strong> 319 Brockley Road, London SE4 2QZ
           </p>
           <p>
             <strong>Open hour : </strong> 7AM to 4:30PM (Close on Monday)
@@ -35,7 +35,7 @@ const Contact = () => (
               {" "}
               <a
                 target="_blank"
-                href="https://www.google.co.uk/search?ei=761AXIOyOeKW1fAPp6-XqAY&q=deja+cafe+brew+brockley&oq=deja+cafe+brew+brockley&gs_l=psy-ab.3...2295.2983..3159...0.0..0.59.114.2......0....1..gws-wiz.OT_amsPp-WI#lrd=0x4876030414cb245d:0x7ad5988dbb77a3a1,1,,,"
+                href="https://www.google.co.uk/search?ei=761AXIOyOeKW1fAPp6-XqAY&q=deja+brew+brockley&oq=deja++rew+brockley&gs_l=psy-ab.3...2295.2983..3159...0.0..0.59.114.2......0....1..gws-wiz.OT_amsPp-WI#lrd=0x4876030414cb245d:0x7ad5988dbb77a3a1,1,,,"
               >
                 HERE
               </a>

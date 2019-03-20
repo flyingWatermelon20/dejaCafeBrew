@@ -13,14 +13,10 @@ const About = () => (
             <p className={styles.title}>About us</p>{" "}
           </div>
           <p className={styles.description}>
-            <strong>Deja Cafe Brew</strong> is located in the heart of Brockley
-            Road. We serve dishes made with fresh ingredients and home-made
-            sides. We have <strong>space for private parties</strong> with
-            tailored catering service. People is a multi-functional events
-            space. The space is perfect for supper clubs, meetings, pop-up
-            restaurants, anything you want! Private dining from 10 to 20, and
-            whole venue hire available for up to 50. We can arragne to suit all
-            occasions. For further information, please
+            <strong>Deja Brew Cafe </strong> is located at 319 Brockley Road, London SE42QZ.
+            We are a family run business. Our goal is to treat all our customers with warmth and sincerity and make each dinning experience as good as if not better than the last by providing a wonderful service and fabulous home-cooked food from fresh and simple seasonal ingredients.
+            We have <strong>space for private parties</strong> with
+            tailored catering service. Phone orders are welcome for pickup. For further information, please contact us.
             <a href="#contact">
               <strong> contact us.</strong>
             </a>

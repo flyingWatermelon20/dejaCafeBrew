@@ -1,2 +1,2 @@
-# dejaCafeBrew
-Simple website for cafe DejaCafeBrew
+# dejaBrewCafe
+Simple website for cafe DejaBrewCafe
