@@ -21,7 +21,7 @@ const Contact = () => (
           </p>
           <p>
             <strong>Tel : </strong>
-            020 7998 836
+            020 7998 8360
           </p>
         </div>
         <p className={styles.colorBlock}>Talk to us! </p>
@@ -46,7 +46,7 @@ const Contact = () => (
         <div className={styles.textBox}>
           <p>
             For further questions regarding partnership or party room/catering
-            service, Please give us a call at <strong>020 7998 836 </strong> or
+            service, Please give us a call at <strong>020 7998 8360 </strong> or
             send us an email at <strong>dejabrewbrockley@gmail.com</strong>
           </p>
         </div>

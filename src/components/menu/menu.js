@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "./menu.css";
+import menuPdf from "../../assets/menu.pdf"
+
 const Menu = () => (
   <div className={styles.menuContainer}>
     <div className={styles.textContainer}>
@@ -14,7 +16,7 @@ const Menu = () => (
         <button>
           <a
             className={styles.buttonLike}
-            href="src/assets/menu.pdf"
+            href={menuPdf}
             target="_blank"
           >
             VIEW MENU

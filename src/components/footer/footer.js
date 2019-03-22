@@ -11,7 +11,7 @@ const Footer = () => (
     <div className={styles.elementsContainer}>
       <div className={styles.title}>DEJA BREW CAFE</div>
       <div className={styles.address}>
-        319 Braxfield Road, London SE4 2QZ | 020 7998 836{" "}
+        319 Brockley Road, London SE4 2QZ | 020 7998 8360{" "}
       </div>
       <div className={styles.iconCotainer}>
         <a
