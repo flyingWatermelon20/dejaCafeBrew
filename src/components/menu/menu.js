@@ -7,7 +7,7 @@ const Menu = () => (
     <div className={styles.textContainer}>
       <p className={styles.title}>Menu</p>
       <p className={styles.subtitle}>
-        We offer a wide range of foods from classic English breakfast to egg
+        We offer a wide range of foods from classic. English breakfast to egg
         benedict, paninis, burgers and even charcoal grill menu. We also have
         chef's special menu everyday including daily soup. Don't forget to
         checkout our specials!
