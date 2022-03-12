@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./menu.css";
-import menuPdf from "../../assets/deja_brew_final.pdf"
+import menuPdf from "../../assets/menu.pdf"
 
 const Menu = () => (
   <div className={styles.menuContainer}>
