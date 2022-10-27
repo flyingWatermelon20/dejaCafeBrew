@@ -7,6 +7,7 @@
   width: 100%;
   z-index: 100;
 }
+
 .header a {
   float: left;
   color: #3e3e3e;
@@ -31,6 +32,15 @@
   width: 4.5rem;
   height: 4.5rem;
 }
+
 .headerRight {
+  padding-right: 2rem;
   float: right;
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .headerRight {
+    display: block;
+  }
 }

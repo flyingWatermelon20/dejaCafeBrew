@@ -10,9 +10,9 @@
 }
 
 .textContainer {
-  width: 50%;
+  width: 75%;
   max-width: 680px;
-  height: 50%;
+  height: auto;
   color: black;
   text-align: center;
   background-color: #000000ab;
@@ -41,4 +41,11 @@
 }
 .buttonLike {
   font-family: Caveat;
+}
+
+
+@media (min-width: 600px) {
+  .textContainer {
+    width:50%
+  }
 }

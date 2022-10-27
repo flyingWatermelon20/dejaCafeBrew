@@ -16,20 +16,10 @@ const Menu = () => (
         <button>
           <a
             className={styles.buttonLike}
-            href={menuPdf}
-            target="_blank"
-          >
-            VIEW MENU
-          </a>
-        </button>
-
-        <button className={styles.specialMenu}>
-          <a
-            className={styles.buttonLike}
             href="https://www.facebook.com/Deja-Brew-Cafe-Brockley-407394519793712/"
             target="_blank"
           >
-            VIEW SPECIALS
+            VIEW MENU
           </a>
         </button>
       </div>
